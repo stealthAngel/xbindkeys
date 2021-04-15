@@ -1,5 +1,5 @@
 #####
-# alt + key
+'#' alt + key
 #####
 "xvkbd -xsendevent -text '\[Left]'"
 m:0x18 + c:44
@@ -18,7 +18,7 @@ m:0x18 + c:31
 alt + i
 
 #####
-# ctrl + alt + key
+'#' ctrl + alt + key
 #####
 "xvkbd -xsendevent -text '\C\[Left]'"
 m:0x14 + m:0x18 + c:44
@@ -37,7 +37,7 @@ m:0x14 + m:0x18 + c:31
 ctrl + alt + i
 
 #####
-# ctrl + alt + shift + key
+'#' ctrl + alt + shift + key
 #####
 
 "xvkbd -xsendevent -text '\C\S\[Left]'"
@@ -57,7 +57,7 @@ m:0x14 + m:0x11 + m:0x18 + c:31
 ctrl + alt + shift + i
 
 #####
-# extra utilities
+'#' extra utilities
 #####
 
 "xvkbd -xsendevent -text '\[Home]'"
