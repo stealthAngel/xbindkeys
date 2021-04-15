@@ -1,4 +1,9 @@
 ```
+
+"xvkbd -xsendevent -text ' '"
+m:0x18 + c:65
+alt + space sends space
+
 #####
 '#' alt + key
 #####
