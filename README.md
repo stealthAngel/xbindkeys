@@ -1,3 +1,4 @@
+```
 #####
 '#' alt + key
 #####
@@ -75,3 +76,4 @@ alt + y  #page up
 "xvkbd -xsendevent -text '\[Prior]'"
 m:0x18 + c:29
 alt + h  # page down
+```
