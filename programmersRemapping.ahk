@@ -41,4 +41,10 @@ Alt & /::Send {\}
 Alt & 7::Send {|}
 RAlt & LAlt::return
 
+Shift & NumpadEnd::Send mohammed.mo.cro@hotmail.com
+Shift & Numpad1::Send mohammed.mo.cro@hotmail.com
+
+Shift & NumpadDown::Send m.belhaj_zakelijk@hotmail.com
+Shift & Numpad2::Send m.belhaj_zakelijk@hotmail.com
+
 
