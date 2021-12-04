@@ -8,38 +8,37 @@ Alt & CapsLock::SetCapsLockState, % GetKeyState("CapsLock", "T")? "Off":"On" ;
 >!space::Send {space}
 
 ; remapped alt + any key of asdf to ()"='
-Alt & a::Send {(}
-Alt & s::Send {)}
-Alt & d::Send {;} ;
-Alt & f::Send {=}
-Alt & g::Send {:}
+~!a::Send {(}
+~!s::Send {)}
+~!d::Send {;} ;
+~!f::Send {=}
+~!g::Send {:}
 
 ; remapped alt + any key of 2 3 to '`
-Alt & 2::Send ``
-Alt & 3::Send {'}
+~!2::Send ``
+~!3::Send {'}
 
-; remapped alt + any key of qwerty to <!->+
-Alt & q::Send {<}
-Alt & w::Send {>}
-Alt & e::Send {"}
-Alt & r::Send {-}
-Alt & t::Send {+}
+; remapped alt + any key of qwerty to <~!->+
+~!q::Send {<}
+~!w::Send {>}
+~!e::Send {"}
+~!r::Send {-}
+~!t::Send {+}
 
 ; remapped alt + any key of zxcvb to []{}?
-Alt & z::Send {#}
-Alt & x::Send {$}
-Alt & c::Send {{}
-Alt & v::Send {}}
-Alt & b::Send {!}
+~!z::Send {#}
+~!x::Send {$}
+~!c::Send {{}
+~!v::Send {}}
+~!b::Send {~!}
 
-; shift + , . to _ !
+; shift + , . to _ ~!
 Shift & ,::Send {_}
-Shift & .::Send {!}
+Shift & .::Send {~!}
 ; alt + / sends \
 Alt & /::Send {\}
 ; shift + 9 sends |
 Alt & 7::Send {|}
-RAlt & LAlt::return
 
 Shift & NumpadEnd::Send mohammed.mo.cro@hotmail.com
 Shift & Numpad1::Send mohammed.mo.cro@hotmail.com
