@@ -1,7 +1,7 @@
 #Include %A_ScriptDir%\jkliKeysToArrows.ahk
 
 ; the capslock becomes backspace but (right alt + capslock) activates the capslock key
-CapsLock::Backspace
+CapsLock::return
 Alt & CapsLock::SetCapsLockState, % GetKeyState("CapsLock", "T")? "Off":"On" ;
 
 ; makes right alt and space become space instead of doing nothing, it removes annoyance trust me
