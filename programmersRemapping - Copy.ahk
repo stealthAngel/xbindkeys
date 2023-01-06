@@ -9,105 +9,105 @@ Alt & CapsLock::SetCapsLockState, % GetKeyState("CapsLock", "T")? "Off":"On" ;
 
 #IfWinActive
 ~!q::
-    Send, {LAlt down}
+    Send, {RAlt down}
     Send, {<}
-    Send, {LAlt up}
+    Send, {RAlt up}
 return
 
 ~!w::
-    Send, {LAlt down}
+    Send, {RAlt down}
     Send, {>}
-    Send, {LAlt up}
+    Send, {RAlt up}
 return
 
 ~!e::
-    Send, {LAlt down}
+    Send, {RAlt down}
     Send, {"}
-    Send, {LAlt up}
+    Send, {RAlt up}
 return
 
 ~!r::
-    Send, {LAlt down}
+    Send, {RAlt down}
     Send, {-}
-    Send, {LAlt up}
+    Send, {RAlt up}
 return
 
 ~!t::
-    Send, {LAlt down}
+    Send, {RAlt down}
     Send, {+}
-    Send, {LAlt up}
+    Send, {RAlt up}
 return
 
 ~!a::
-    Send, {LAlt down}
+    Send, {RAlt down}
     Send, {(}
-    Send, {LAlt up}
+    Send, {RAlt up}
 return
 
 ~!s::
-    Send, {LAlt down}
+    Send, {RAlt down}
     Send, {)}
-    Send, {LAlt up}
+    Send, {RAlt up}
 return
 
 ~!d::
-    Send, {LAlt down}
+    Send, {RAlt down}
     Send, {;}
-    Send, {LAlt up}
+    Send, {RAlt up}
 return
 
 ~!f::
-    Send, {LAlt down}
+    Send, {RAlt down}
     Send, {=}
-    Send, {LAlt up}
+    Send, {RAlt up}
 return
 
 ~!g::
-    Send, {LAlt down}
+    Send, {RAlt down}
     Send, {:}
-    Send, {LAlt up}
+    Send, {RAlt up}
 return
 
 ~!2::
-    Send, {LAlt down}
+    Send, {RAlt down}
     Send, ``
-    Send, {LAlt up}
+    Send, {RAlt up}
 return
 
 ~!3::
-    Send, {LAlt down}
+    Send, {RAlt down}
     Send, {'}
-    Send, {LAlt up}
+    Send, {RAlt up}
 return
 
 ~!z::
-    Send, {LAlt down}
+    Send, {RAlt down}
     Send, {#}
-    Send, {LAlt up}
+    Send, {RAlt up}
 return
 
 ~!x::
-    Send, {LAlt down}
+    Send, {RAlt down}
     Send, {$}
-    Send, {LAlt up}
+    Send, {RAlt up}
 return
 
 ~!c::
-    Send, {LAlt down}
+    Send, {RAlt down}
     Send, {{}
-    Send, {LAlt up}
+    Send, {RAlt up}
 return
 
 ~!v::
-    Send, {LAlt down}
+    Send, {RAlt down}
     Send, {}}
-    Send, {LAlt up}
+    Send, {RAlt up}
 return
 
 ~!b::
-    Send, {LAlt down}
+    Send, {RAlt down}
     Send, {!}
-    Send, {LAlt up}
+    Send, {RAlt up}
 return
 #IfWinActive
 
