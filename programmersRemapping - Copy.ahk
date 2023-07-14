@@ -113,7 +113,7 @@ return
 
 ; shift + , . to _ ~!
 Alt & ,::Send {_}
-Shift & .::Send {!}
+; Shift & .::Send {!}
 ; alt + / sends \
 Alt & /::Send {\}
 Alt & 7::Send {|}
