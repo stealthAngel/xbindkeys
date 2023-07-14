@@ -33,7 +33,7 @@ Alt & CapsLock::SetCapsLockState, % GetKeyState("CapsLock", "T")? "Off":"On" ;
   !b::Send {!}
 
   ; shift + , . to _ ~!
-  Shift & ,::Send {_}
+  Alt & ,::Send {_}
   Shift & .::Send {!}
   ; alt + / sends \
   Alt & /::Send {\}

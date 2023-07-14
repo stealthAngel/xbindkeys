@@ -112,7 +112,7 @@ return
 #IfWinActive
 
 ; shift + , . to _ ~!
-Shift & ,::Send {_}
+Alt & ,::Send {_}
 Shift & .::Send {!}
 ; alt + / sends \
 Alt & /::Send {\}
