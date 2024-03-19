@@ -51,3 +51,5 @@ Alt & CapsLock::SetCapsLockState, % GetKeyState("CapsLock", "T")? "Off":"On" ;
 
 ; Define hotkey to suspend the script when Ctrl + Alt + 0 is pressed
 ^!0::Suspend
+;q::Send, ^. ;j to q to ctrl+ .
+
